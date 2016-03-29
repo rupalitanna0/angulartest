@@ -1,0 +1,52 @@
+[{"firstname":"Rupali",
+"lastname": "Rathod",
+"username" : "rupali87",
+"password" : "dasnadas",
+"emailaddress" : "rupali.tanna2007@gmail.com",
+"address" : "54 Borden Ave, Apt B 25",
+"city" : "Norwich",
+"state" : "NY",
+"zipcode" : 13815,
+"cell number" : 5512085858,
+"number" : 5512085858,
+"contacts" : [{
+	"name" : "Jitendra Rathod",
+	"emailaddress" : "jeetsonly4u@gmail.com",
+	"address" : "54 Borden Ave, Apt B 25",
+	"city" : "Norwich",
+	"state" : "NY",
+	"zipcode" : 13815,
+	"cell number" : 5512088802,
+	"number" : 5512088802
+	},
+	{
+	"name" : "Jitendra Rathod",
+	"emailaddress" : "jeetsonly4u@gmail.com",
+	"address" : "54 Borden Ave, Apt B 25",
+	"city" : "Norwich",
+	"state" : "NY",
+	"zipcode" : 13815,
+	"cell number" : 5512088802,
+	"number" : 5512088802
+	},
+	{
+	"name" : "Rupal Rathod",
+	"emailaddress" : "dummy@gmail.com",
+	"address" : "54 Borden Ave, Apt B 25",
+	"city" : "Norwich",
+	"state" : "NY",
+	"zipcode" : 13815,
+	"cell number" : 1231231234,
+	"number" : 1231231234
+	},
+	{
+	"name" : "Neha Sangani",
+	"emailaddress" : "dhyey2009@gmail.com",
+	"address" : "7 Copper Ridge Circle",
+	"city" : "Atlantc City",
+	"state" : "NJ",
+	"zipcode" : 13815,
+	"cell number" : 5512088802,
+	"number" : 5512088802
+	}]
+}]

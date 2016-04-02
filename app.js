@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');//for params
 // SESSIONS
 var session = require('express-session');
 var bcrypt = require('bcrypt');
-var MongoStore = require('connect-mongo')(session);
+var MongoStore = require('connect-mongo/es5')(session);
 
 var authenticateUser = function(username, password, callback) { //for sessions and login
   db.collection('users').findOne({username: username}, function(err, data) {

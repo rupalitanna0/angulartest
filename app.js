@@ -7,6 +7,7 @@ var session = require('express-session');
 var bcrypt = require('bcrypt');
 var MongoStore = require('connect-mongo/es5')(session);
 
+
 var authenticateUser = function(username, password, callback) { //for sessions and login
   db.collection('users').findOne({username: username}, function(err, data) {
     if (err) {throw err;}
@@ -38,13 +39,15 @@ MongoClient.connect(mongoUrl, function(err, database) {
   process.on('exit', db.close);
 });
 
-app.use(session({
-  secret: process.env.SESSION_SECRET
-}))
-
-app.get('/', function(req, res){
-  res.send('index');
+// app.use(session({
+//   secret: process.env.SESSION_SECRET
+// }))
+app.get('/', function(req, res) { 
+  res.render('index', { title: 'The index page!' }) 
 });
+// app.get('/', function(req, res){
+//   res.send('index');
+// });
 app.get('/home', function(req, res){
   res.end('index' + req.params.name);
 });

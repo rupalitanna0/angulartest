@@ -4,14 +4,15 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.4",
-    "body-parser": "^1.15.0",
     "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
     "connect-mongo": "^1.1.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
     "express-session": "^1.13.0",
-    "node-mongo-seeds": "^2.2.7",
+    "mongodb": "^2.1.14",
     "mongodb-bluebird": "^0.1.1",
-    "mongodb": "^2.1.14"
+    "node-mongo-seeds": "^2.2.7"
   },
   "devDependencies": {},
   "scripts": {

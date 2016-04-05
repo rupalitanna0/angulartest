@@ -49,22 +49,22 @@ app.get('/', function(req, res) {
 //   res.send('index');
 // });
 app.get('/home', function(req, res){
-  res.end('index' + req.params.name);
+  res.render('index' + req.params.name);
 });
 app.post('/home', function(req, res){
-  res.end('this is a post' + req.body.name) 
+  res.render('this is a post' + req.body.name) 
 })
 app.get('/newuser', function(req, res){
-  res.end('newuser');
+  res.render('newuser');
 });
 app.get('/login', function(req, res){
-  res.end('login');
+  res.render('login');
 });
 app.get('/signup', function(req, res){
-  res.end('register');
+  res.render('register');
 });
 app.get('/signup', function(req, res){
-  res.end('register');
+  res.render('register');
 });
 console.log("going through port 3000")
 
